@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-import Board from '../containers/Board';
+import Board from '../components/Board/Board';
 import styles from '../styles/Home.module.css';
 
 const Home = () => {

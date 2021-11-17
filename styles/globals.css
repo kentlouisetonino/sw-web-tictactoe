@@ -1,23 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Scope+One&display=swap');
+
+body {
+  background: black;
+}
+
+.player {
+  color: white;
+  font-family: 'Scope One', serif;
+  font-weight: 500;
+}
+
 .grid {
   display: grid;
-  grid-gap: 1px;
+  grid-gap: 2px;
   grid-template-columns: repeat(3, 1fr);
 }
 
 .square {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   font-size: 5rem;
   color: #e8e5e5;
   border: solid 1px black;
 }
 
+.square:hover {
+  background: gray;
+}
+
 .square_o {
-  background-color: rgb(87, 218, 21);
+  background-color: rgb(44, 97, 15);
+  font-family: 'Scope One', serif;
+  font-weight: 600;
 }
 
 .square_x {
-  background-color: crimson;
+  background-color: rgb(116, 14, 34);
+  font-family: 'Scope One', serif;
+  font-weight: 600;
 }
 
 p {
@@ -25,10 +45,20 @@ p {
 }
 
 .reset {
+  font-family: 'Scope One', serif;
   margin-top: 2rem;
   font-size: 2rem;
-  background-color: aqua;
-  border-radius: 6px;
+  background-color: rgb(107, 112, 112);
   cursor: pointer;
+  width: 454px;
+  border-radius: 4px;
+  border: 1px solid black;
+  padding-bottom: 0;
+  font-weight: 600;
 }
 
+.reset:hover {
+  background: black;
+  border: 1px solid white;
+  color: white
+}
