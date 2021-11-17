@@ -1,13 +1,14 @@
 # Personal Portfolio
-- _This is a simple portfolio that reflects my personal information. Including my education, work experiences, online certificates, and some of my simple personal projects._
+- _This is a simple Tic-Tac-Toe project._
 
 ### Technology Stack
-- _HTML_
-- _CSS_
-- _JavaScript_
+- _ReactJS_
+- _NextJS_
+- _TypeScript_
+- _Deploy via Vercel_
 
 ### Link
-- _https://kenttonino.github.io/portfolio/_
+- _https://project-tictactoe-kenttonino.vercel.app/_
 
 
 ### Screen Recording
