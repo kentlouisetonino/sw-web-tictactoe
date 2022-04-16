@@ -1,4 +1,4 @@
-# Personal Portfolio
+# Description
 - _This is a simple Tic-Tac-Toe project._
 
 ### Technology Stack
