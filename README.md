@@ -1,6 +1,6 @@
 ### Description
 - A simple Tic-Tac-Toe app.
 
-### Technology Stack
+### Technologies | Packages
 - Frontend: ReactJS, NextJS, TypeScript
 - Others: Github Actions, Vercel
