@@ -3,4 +3,4 @@
 
 ### Technologies | Packages
 - Frontend: ReactJS, NextJS, TypeScript
-- Others: Github Actions, Vercel
+- Others: Vercel
