@@ -1,8 +1,6 @@
-# Description
-- _This is a simple Tic-Tac-Toe project._
+### Description
+- A simple Tic-Tac-Toe app.
 
 ### Technology Stack
-- _ReactJS_
-- _NextJS_
-- _TypeScript_
-- _Deploy via Vercel_
+- Frontend: ReactJS, NextJS, TypeScript
+- Others: Github Actions, Vercel
