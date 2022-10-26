@@ -4,8 +4,7 @@
 <br />
 
 ## Technology Stack
-> - Frontend: ReactJS, NextJS, TypeScript
-> - Others: Vercel
+> ReactJS • NextJS • TypeScript • Vercel
 
 <br />
 
