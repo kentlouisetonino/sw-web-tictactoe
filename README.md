@@ -3,7 +3,7 @@
 
 <br />
 
-## Technologies | Packages | Tools
+## Technology Stack
 > - Frontend: ReactJS, NextJS, TypeScript
 > - Others: Vercel
 
