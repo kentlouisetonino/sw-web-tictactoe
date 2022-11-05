@@ -1,5 +1,5 @@
 ## Description
-> A simple Tic-Tac-Toe app.
+> A Client-Side Application.
 
 <br />
 
