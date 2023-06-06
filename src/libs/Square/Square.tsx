@@ -1,4 +1,4 @@
-import { Player } from "../../helpers/Player";
+import { Player } from "../types";
 
 interface SquareProps {
   value: Player;

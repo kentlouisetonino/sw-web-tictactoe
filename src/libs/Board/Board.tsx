@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
-import { Player } from "../../helpers/Player";
-import { lines } from "../../helpers/lines";
 import Square from "../Square/Square";
+import { Player, lines } from "../types";
 
 export default function Board() {
   const [squares, setSquares] = useState(Array(9).fill(null));
