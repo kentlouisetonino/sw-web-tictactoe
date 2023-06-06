@@ -17,9 +17,11 @@ export default function Board() {
 
   const setSquareValue = (index: number) => {
     const newData = squares.map((val, i) => {
-      if (i === index) return currentPlayer;
-
-      return val;
+      if (i === index) {
+        return currentPlayer;
+      } else {
+        return val;
+      }
     });
 
     setSquares(newData);
@@ -30,8 +32,13 @@ export default function Board() {
     for (let i = 0; i < lines.length; i++) {
       const [a, b, c] = lines[i];
 
-      if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c])
+      if (
+        squares[a] &&
+        squares[a] === squares[b] &&
+        squares[a] === squares[c]
+      ) {
         return squares[a];
+      }
     }
 
     return null;
@@ -39,8 +46,14 @@ export default function Board() {
 
   useEffect(() => {
     const win = calculateWinnder(squares);
-    if (win) setWinner(win);
-    if (!win && !squares.filter((square) => !square).length) setWinner("Both");
+
+    if (win) {
+      setWinner(win);
+    }
+
+    if (!win && !squares.filter((square) => !square).length) {
+      setWinner("Both");
+    }
   });
 
   return (
