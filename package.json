@@ -1,5 +1,5 @@
 {
-  "name": "project-tictactoe",
+  "name": "web-tictactoe",
   "private": true,
   "scripts": {
     "dev": "next dev",
